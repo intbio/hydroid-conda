@@ -1,4 +1,4 @@
 # hydroid-conda
-HYDROID recipe for Anaconda
+(HYDROID)[https://github.com/ncbi/HYDROID] recipe for Anaconda
 
-`conda-build -c conda-forge -c molsim hydroid`
+`conda-build -c conda-forge -c hydroid hydroid`
