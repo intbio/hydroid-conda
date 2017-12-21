@@ -13,7 +13,9 @@ anaconda login
 conda-build -c conda-forge hydroid
 anaconda upload path_to_package
 conda convert --platform all path_to_package -o output/
-find output/ -name 'hydroid*' -exec anaconda upload {} \;
+#find output/ -name 'hydroid*' -exec anaconda upload {} \;
+#Manually upload for OSX and Linux
+#For windows repeat the above steps with deactivate freesasa module in meta.yml (freesasa module for win is not currently available)
 ```
 
 ## Installing HYDROID from Anaconda cloud
