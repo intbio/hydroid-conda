@@ -6,7 +6,11 @@
 ## Building and uploading to Anaconda cloud
 ```
 conda install conda-build
-conda-build -c conda-forge -c hydroid hydroid
+conda update -n root conda-build
+conda install anaconda-client
+anaconda login
+
+conda-build -c hydroid hydroid
 anaconda upload path_to_package
 conda convert --platform all path_to_package -o output/
 find output/ -name 'hydroid*' -exec anaconda upload {} \;
