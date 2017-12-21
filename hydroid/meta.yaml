@@ -1,11 +1,11 @@
 package:
   name: hydroid
-  version: "0.0.4.post10"
+  version: "0.0.5"
 
 source:
-  fn: hydroid-0.0.4.post10.tar.gz
-  url: https://pypi.python.org/packages/ea/ed/3fdb74b94bd3aca67dfc984af3b8d351ef82c9491f85e7fa2ab194b57851/hydroid-0.0.4.post10.tar.gz
-  md5: d7936180ad4037962401c2302c1edd19
+  fn: v0.0.5.tar.gz
+  url: https://github.com/molsim/HYDROID/archive/v0.0.5.tar.gz
+#  md5: d7936180ad4037962401c2302c1edd19
 #  patches:
    # List any patch files here
    # - fix.patch
@@ -41,7 +41,7 @@ requirements:
     - scipy ==0.18.1
     - statsmodels ==0.8.0
     - cython
-    - freesasa
+    - freesasa # [not win]
 
   run:
     - python
@@ -53,6 +53,7 @@ requirements:
     - pillow ==4.0.0
     - scipy ==0.18.1
     - statsmodels ==0.8.0
+    - freesasa # [not win]
 
 test:
   # Python imports
