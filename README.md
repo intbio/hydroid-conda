@@ -5,9 +5,9 @@
 
 ## Building and uploading to Anaconda cloud
 ```
-conda install conda-build
-conda update -n root conda-build
-conda install anaconda-client
+conda install -y conda-build
+conda update -n root -y conda-build
+conda install -y anaconda-client
 anaconda login
 
 conda-build -c conda-forge hydroid
