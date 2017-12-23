@@ -10,7 +10,7 @@ conda update -n root -y conda-build
 conda install -y anaconda-client
 anaconda login
 
-conda-build -c conda-forge hydroid
+conda-build hydroid
 anaconda upload path_to_package #or toggle automatic upload with: conda config --set anaconda_upload True
 conda convert --platform all path_to_package -o output/
 #find output/ -name 'hydroid*' -exec anaconda upload {} \;
