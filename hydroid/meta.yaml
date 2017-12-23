@@ -32,6 +32,15 @@ requirements:
   build:
     - python
     - setuptools
+    - biopython ==1.68
+    - matplotlib ==2.0.0
+    - numpy ==1.11.0
+    - pandas >=0.19.2
+    - peakutils >=1.0.3
+    - pillow ==4.0.0
+    - scipy ==0.18.1
+    - statsmodels ==0.8.0
+    - freesasa # [not win]
 
   run:
     - python
