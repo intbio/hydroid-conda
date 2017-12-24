@@ -1,10 +1,10 @@
 package:
   name: hydroid
-  version: "0.0.7"
+  version: "0.0.9"
 
 source:
-  fn: v0.0.7.tar.gz
-  url: https://github.com/ncbi/HYDROID/archive/v0.0.7.tar.gz
+  fn: v0.0.9.tar.gz
+  url: https://github.com/ncbi/HYDROID/archive/v0.0.9.tar.gz
 #  md5: d7936180ad4037962401c2302c1edd19
 #  patches:
    # List any patch files here
