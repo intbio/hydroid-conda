@@ -42,7 +42,7 @@ requirements:
     - pillow ==4.0.0
     - scipy ==0.18.1
     - statsmodels ==0.8.0
-    - freesasa # [not win]
+    - freesasa # [not win32]
 
   run:
     - python
