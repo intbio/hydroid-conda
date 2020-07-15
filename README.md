@@ -11,7 +11,7 @@ conda install -y anaconda-client
 anaconda login
 
 mv hydroid h
-conda-build -c hydroid h
+conda-build -c hydroid -c conda-forge -c bioconda h
 anaconda upload path_to_package #or toggle automatic upload with: conda config --set anaconda_upload True
 conda convert --platform all path_to_package -o output/
 #find output/ -name 'hydroid*' -exec anaconda upload {} \;
@@ -22,5 +22,5 @@ conda convert --platform all path_to_package -o output/
 ## Installing HYDROID from Anaconda cloud
 
 ```
-conda install -c hydroid hydroid
+conda install -c hydroid -c conda-forge -c bioconda hydroid
 ```
