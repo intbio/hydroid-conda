@@ -35,7 +35,7 @@ requirements:
     - python
     - setuptools
     - biopython ==1.68
-    - matplotlib ==2.0.0
+    - matplotlib ==2.0.*
     - numpy ==1.11.0
     - pandas >=0.19.2
     - peakutils >=1.0.3
@@ -47,7 +47,7 @@ requirements:
   run:
     - python
     - biopython ==1.68
-    - matplotlib ==2.0.0
+    - matplotlib ==2.0.*
     - numpy ==1.11.0
     - pandas >=0.19.2
     - peakutils >=1.0.3
